@@ -10,4 +10,9 @@ status:
 code:
 	@code .
 
+cohere:
+	@npm run embeddings-cohere
+
+titan:
+	@npm run embeddings-titan
 

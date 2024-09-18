@@ -1,0 +1,18 @@
+{
+  "name": "aws-bedrock-example",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "embeddings-cohere": "node models/embedding-model-cohere.js",
+    "embeddings-titan": "node models/embedding-model-titan.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.651.1",
+    "dotenv": "^16.4.5"
+  }
+}
