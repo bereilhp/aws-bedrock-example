@@ -5,7 +5,7 @@ This project demonstrates the usage of AWS Bedrock Runtime and its APIs to invok
 ## Files
 
 The project consists of two files:
-- embedding-model-cohere.js first 
+- embedding-model-cohere.js  
 - embedding-model-titan.js 
 
 > **_NOTE:_**  They are identical, but with different model IDs and inputs.
