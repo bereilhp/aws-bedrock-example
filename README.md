@@ -1,14 +1,13 @@
 # AWS Bedrock Examples
 
-This project demonstrates the usage of AWS Bedrock Runtime and its APIs to invoke model commands and retrieve embeddings.
+This project demonstrates the usage of AWS Bedrock Runtime and its APIs to invoke model commands.
 
 ## Files
 
-The project consists of two files:
+The project consists of three files:
 - embedding-model-cohere.js  
 - embedding-model-titan.js 
-
-> **_NOTE:_**  They are identical, but with different model IDs and inputs.
+- text-model-cohere.js
 
 ## Usage
 
@@ -28,18 +27,17 @@ AWS_SECRET_ACCESS_KEY="your AWS secret access key"
 
 ## Running the Scripts
 
-To run the example for Cohere models, use:
+To run the example for Cohere Embedding model, use:
 ````
 make cohere
 ````
 
-To run the example for Titan models, use:
+To run the example for Titan Embedding model, use:
 ```
 make titan
 ```
 
-## Output
-The script will output the following information:
-- The input text
-- The response from the model
-- The dimensions of the retrieved embeddings
+To run the example for Cohere Text model, use:
+```
+make text-cohere
+```
