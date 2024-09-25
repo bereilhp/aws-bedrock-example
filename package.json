@@ -6,6 +6,7 @@
   "scripts": {
     "embeddings-cohere": "node models/embedding-model-cohere.js",
     "embeddings-titan": "node models/embedding-model-titan.js",
+    "text-cohere": "node models/text-model-cohere.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

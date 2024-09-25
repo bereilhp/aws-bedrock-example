@@ -16,3 +16,6 @@ cohere:
 titan:
 	@npm run embeddings-titan
 
+text-cohere:
+	@npm run text-cohere
+
